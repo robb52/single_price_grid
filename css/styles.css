@@ -45,8 +45,51 @@ p {
 
 .desc {
   font-size: .80rem;
-  line-height: 1.6;
+  line-height: 1.9;
   color: hsl(218, 22%, 67%);
 }
 
+.monthly {
+  background: hsl(179, 62%, 43%);
+  color: #fff;
+  padding: 1.5em;
+}
+
+.monthly-title {
+  font-size: 1.1rem;
+  text-transform: capitalize;
+  margin-bottom: 1em;
+}
+
+.monthly-sub-title {
+  display: flex;
+  align-items: center;
+  font-size: 2rem;
+  margin-bottom: .2em;
+}
+
+span {
+  font-size: .90rem;
+  font-weight: 400;
+  opacity: .6;
+  margin-left: .5em;
+}
+
+.monthly-desc {
+  font-size: .90rem;
+  opacity: .8;
+}
+
+button {
+  font-size: .90rem;
+  text-transform: capitalize;
+  background:  hsl(71, 73%, 54%);
+  color: #fff;
+  padding: .90em 0;
+  width: 100%;
+  border: none;
+  border-radius: .5em;
+  margin-top: 1.5em;
+box-shadow: 0px 10px 13px -7px hsl(179, 75%, 25%), 1px 7px 24px 8px rgba(0,0,0,0.19);
+}
 
