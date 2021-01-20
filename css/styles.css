@@ -24,8 +24,8 @@ p {
 .community {
   background: #fff;
   padding: 1.5em;
-  border-top-left-radius: .3em;
-  border-top-right-radius: .3em;
+  border-top-left-radius: .5em;
+  border-top-right-radius: .5em;
 }
 
 .main-title,
@@ -55,7 +55,8 @@ p {
   padding: 1.5em;
 }
 
-.monthly-title {
+.monthly-title,
+.why-title  {
   font-size: 1.1rem;
   text-transform: capitalize;
   margin-bottom: 1em;
@@ -90,6 +91,54 @@ button {
   border: none;
   border-radius: .5em;
   margin-top: 1.5em;
-box-shadow: 0px 10px 13px -7px hsl(179, 75%, 25%), 1px 7px 24px 8px rgba(0,0,0,0.19);
+  box-shadow: 0px 10px 13px -7px hsl(179, 75%, 25%), 1px 7px 24px 8px rgba(0,0,0,0.19);
 }
+
+.why {
+  background: hsl(179, 50%, 52%);
+  color: #fff;
+  padding: 1.5em;
+  border-bottom-left-radius: .5em;
+  border-bottom-right-radius: .5em;
+}
+
+ul {
+  list-style: none;
+  padding: 0;
+}
+
+
+@media(min-width: 600px) {
+
+  .main {
+    max-width: 700px;
+  }
+
+  .sub-section {
+    display: flex; 
+    flex-direction: row; 
+  }
+
+  .monthly,
+  .why {
+    width: 50%;
+    padding: 3em;
+  }
+
+  .monthly {
+    border-bottom-left-radius: .5em ;
+  }
+
+  button {
+    padding: 1.3em 0;
+    margin-top: 3em;
+  }
+
+  .why {
+    border-bottom-left-radius: 0;
+    line-height: 1.4;
+  }
+  
+}
+
 
